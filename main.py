@@ -5,7 +5,7 @@
 
 def count_word():
     chain = input("Entrez une chaine:")
-    number_of_words = str(len(chain.split(" ")))
+    number_of_words = str(len(chain.split()))
     print(f"Il y a {number_of_words} mots dans cette chaine.")
 
 count_word()
